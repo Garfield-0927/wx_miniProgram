@@ -1,0 +1,60 @@
+<view class="index">
+  <!-- search bar -->
+  <Search></Search>
+  <!-- search bar -->
+
+  <!-- swiper -->
+  <view class="index_swiper">
+    <swiper autoplay  interval="2000" circular indicator-dots>
+      <swiper-item><image class="swiperIcon" mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/29609adf7341c030283bb00268a03eea.jpg?thumb=1&w=1533&h=575&f=webp&q=90"></image></swiper-item>
+      <swiper-item><image class="swiperIcon" mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6eecc57f60b6b55b779f7908cfce230c.jpg?thumb=1&w=1533&h=575&f=webp&q=90"></image></swiper-item>
+      <swiper-item><image class="swiperIcon" mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/fe253b0048a5517abca36a605acacba3.jpg?thumb=1&w=1533&h=575&f=webp&q=90"></image></swiper-item>
+    </swiper>
+  </view>
+  <!-- swiper -->
+
+  <!-- navi bar -->
+  <view>
+    <ul class="navibar">
+      <li>
+      <navigator>
+      <image class="naviIcon" mode="widthFix" src="../../icons/circle.png">
+      </image>
+      </navigator>
+      <view>
+        分类1
+      </view>
+      </li>
+      <li>
+      <navigator>
+      <image class="naviIcon" mode="widthFix" src="../../icons/circle.png">
+      </image>
+      </navigator>
+      <view>
+        分类2
+      </view>
+      </li>
+      <li>
+      <navigator>
+      <image class="naviIcon" mode="widthFix" src="../../icons/circle.png">
+      </image>
+      </navigator>
+      <view>
+        分类3
+      </view>
+      </li>
+      <li>
+      <navigator>
+      <image class="naviIcon" mode="widthFix" src="../../icons/circle.png">
+      </image>
+      </navigator>
+      <view>
+        分类4
+      </view>
+      </li>
+    </ul>
+  </view>
+  <!-- navi bar -->
+
+  
+</view>

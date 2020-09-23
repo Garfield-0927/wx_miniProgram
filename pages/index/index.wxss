@@ -1,0 +1,24 @@
+swiper{
+  width: 100%;
+  height: calc(100vw *  575 / 1532)
+}
+
+.swiperIcon{
+  width: 100%;
+}
+
+.naviIcon{
+  width: 100rpx;
+}
+
+.navibar li{
+  text-align: center;
+  width: 170rpx;
+  float: left;
+  padding: 10rpx;
+}
+
+.navibar view{
+  font-size: small;
+}
+

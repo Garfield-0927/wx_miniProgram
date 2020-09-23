@@ -1,0 +1,49 @@
+page{
+    height: 100%;
+}
+
+.category{
+    height: 100%;
+}
+
+.cate_container{
+    height: calc(100vh - 90rpx);
+    display: flex;
+}
+
+.left_bar{
+    flex: 2;
+
+}
+
+.right_bar{
+    flex: 4;
+}
+
+.left_item{
+
+    height: 80rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40rpx;
+}
+
+.active{
+    color: var(--themeColor);
+    border-left: 5rpx solid currentColor;
+}
+
+
+.right_item{
+    width:100%;
+}
+
+.right_item image{
+    width: 100%;
+    text-align: center;
+}
+
+.right_bar_detail{
+    text-align: center;
+}

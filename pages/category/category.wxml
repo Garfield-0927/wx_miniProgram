@@ -1,0 +1,35 @@
+<view class="category">
+    <Search></Search>
+
+    <view class="cate_container">
+        <!-- left bar -->
+        <scroll-view class="left_bar" scroll-y="{{true}}">
+            <view class="left_item {{index===currentIndex ? 'active':''}}"
+            wx:for="{{left_bar_item}}"
+            wx:key="*this"
+            bindtap="barClick"
+            data-index = "{{index}}">
+            
+            {{item}}
+            </view>
+        </scroll-view>
+        <!-- left bar -->
+
+        <!-- right bar -->
+        <scroll-view class="right_bar" scroll-y="{{true}}">
+            <view class="right_item"
+            wx:for="{{right_bar_item}}"
+            wx:key="id">
+            <view class="right_bar_detail">
+                /小米产品/           
+            </view>
+            <navigator url="../goods_list/goods_list?cid={{item.id}}">
+                <image src="{{item.url}}" mode="widthFix"></image>
+            </navigator>
+            </view>
+        </scroll-view>
+        <!-- right bar -->
+    </view>
+
+</view>
+

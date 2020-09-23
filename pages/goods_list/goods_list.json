@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "Search":"../../components/Search/Search",
+    "tabbar":"../../components/tabbar/tabbar"
+  },
+  "navigationBarTitleText": "Goods List",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle":"dark"
+
+}

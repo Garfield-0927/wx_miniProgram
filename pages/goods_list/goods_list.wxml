@@ -1,0 +1,31 @@
+
+<view class="search">
+    <Search></Search>
+</view>
+
+<view class="tabbar">
+    <tabbar tabs="{{tabs}}" bind:myevent="onMyEvent">
+        <block wx:if="{{tabs[0].isActive}}">
+        <view class="firstTab">
+            <navigator class="goods_item"
+            wx:for="{{goods}}"
+            wx:key="id"
+            url="../goods_detail/goods_detail?goods_id={{item.id}}">
+                <view class="goods_img">
+                    <image mode="widthFix" src="{{item.url}}">
+                    </image>
+                </view>
+
+                <view class="goods_info">
+                    <h2>{{item.info}}</h2>
+                    <h3>{{item.price}}</h3>
+                </view>
+            </navigator>
+        </view>
+
+
+        </block>
+        <block wx:if="{{tabs[1].isActive}}">1</block>
+        <block wx:if="{{tabs[2].isActive}}">2</block>
+    </tabbar>
+</view>
