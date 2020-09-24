@@ -1,2 +1,20 @@
-<!--pages/user/user.wxml-->
-<text>名称：Garfield</text>
+<view class="userinfoContainer">
+    <view wx:if="{{userinfo}}" class="userImageContainer">
+        <image class="userbcg" src="{{userinfo.avatarUrl}}">
+        </image>
+
+        <view class="userInfo">
+            <image class="userIcon" src="{{userinfo.avatarUrl}}">
+            </image>
+            <view class="userName">
+            {{userinfo.nickName}}
+            </view>
+        </view>
+    </view>
+
+    <view wx:else>
+        <navigator class="" target="" url="/pages/login/login" hover-class="navigator-hover" open-type="navigate">
+        <button type="primary">login</button>     
+        </navigator>
+    </view>
+</view>

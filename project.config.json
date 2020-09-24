@@ -89,6 +89,13 @@
           "pathName": "pages/goods_list/goods_list",
           "query": "cid",
           "scene": null
+        },
+        {
+          "id": 3,
+          "name": "pages/user/user",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
         }
       ]
     }

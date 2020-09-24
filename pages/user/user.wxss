@@ -1,1 +1,42 @@
-/* pages/user/user.wxss */
+.userinfoContainer{
+    height: 45vh;
+}
+
+.userImageContainer{
+    position: relative;
+}
+
+.userbcg{
+    height: 45vh;
+    filter: blur(10rpx);
+}
+
+.userInfo{
+    position: absolute;
+    transform: translateX(-50%);
+    top: 30%;
+    left: 50%;
+    text-align: center;
+}
+
+
+.userIcon{
+
+    height: 150rpx;
+    width: 150rpx;
+    border-radius: 50%;
+}
+
+.userName{
+    margin-top: 20rpx;
+    color: aqua;
+}
+
+button{
+    border-radius: 5%;
+    height: 100rpx;
+    width: 60rpx;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50rpx;
+}
