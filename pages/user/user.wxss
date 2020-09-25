@@ -1,5 +1,11 @@
+Page{
+    background-color: rgb(163, 163, 163);
+}
+
 .userinfoContainer{
     height: 45vh;
+    overflow: hidden;
+    position: relative;
 }
 
 .userImageContainer{
@@ -39,4 +45,128 @@ button{
     justify-content: center;
     align-content: center;
     margin-top: 50rpx;
+}
+
+
+.usercontent{
+    position: relative;
+    font-size: 35rpx;
+}
+
+.user_main{
+    position: absolute;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    top:-40rpx;
+
+}
+
+.his_wrap{
+    background-color:ivory;
+    display: flex;
+}
+
+.his_wrap navigator{
+    float: left;
+    text-align: center;
+    flex: 1;
+}
+
+.his_num{
+    color: var(--themeColor);
+
+}
+
+.myorder{
+    position: absolute;
+    top: 65rpx;
+    background-color: ivory;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 100rpx;
+}
+
+.myorder navigator{
+    width: 23.75%;
+    text-align: center;
+    line-height: 100rpx;
+}
+
+.order_detail{
+    position: absolute;
+    top:166rpx;
+    display: flex;
+    background-color: ivory;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    height:200rpx;
+}
+
+.order_detail navigator{
+    flex:1;
+    text-align: center;
+    line-height: 200rpx;
+}
+
+.addressManage{
+    position: absolute;
+    top:376rpx;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 100rpx;
+    background-color: ivory;
+}
+
+.addressManage navigator{
+    margin-left: 16rpx;
+    line-height: 100rpx;
+}
+
+.contactService{
+    position: absolute;
+    top: 486rpx;
+    background-color:ivory;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100rpx;
+}
+
+.contactService navigator{
+    line-height: 100rpx;
+    margin-left: 16rpx;
+}
+
+.feedback{
+    position: absolute;
+    top: 587rpx;
+    background-color:ivory;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100rpx;
+}
+
+.feedback navigator{
+    line-height: 100rpx;
+    margin-left: 16rpx;
+}
+
+.aboutUs{
+    position: absolute;
+    top: 687rpx;
+    background-color:ivory;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100rpx;
+}
+
+.aboutUs navigator{
+    line-height: 100rpx;
+    margin-left: 16rpx;
 }

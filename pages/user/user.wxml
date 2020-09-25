@@ -18,3 +18,76 @@
         </navigator>
     </view>
 </view>
+
+
+<view class="usercontent">
+    <view class="user_main">
+        <view class="history">
+            <view class="his_wrap">
+            <navigator class="his">
+                <view class="his_num">0</view>
+                <view class="his_name">收藏店铺</view>
+            </navigator>
+            <navigator class="his">
+                <view class="his_num">0</view>
+                <view class="his_name">收藏商品</view>
+            </navigator>
+            <navigator class="his">
+                <view class="his_num">0</view>
+                <view class="his_name">足迹</view>
+            </navigator>
+            </view>
+        </view>
+    </view>
+
+    <view class="order_wrapper">
+        <view class="myorder">
+            <navigator>
+                我的订单
+            </navigator>
+        </view>
+    </view>
+
+    <view class="order_detail">
+        <navigator class="myorderDetail">
+            全部订单
+        </navigator>
+
+        <navigator class="waitToPay">
+            待付款
+        </navigator>
+        
+        <navigator class="waitToReceive">
+            待收货
+        </navigator>
+
+        <navigator class="refund">
+            退款/退货
+        </navigator>
+
+
+    </view>
+
+    <view class="addressManage">
+        <navigator>
+            收货地址管理            
+        </navigator>
+    </view>
+
+    <view class="contactService">
+        <navigator>
+           联系客服 
+        </navigator>
+    </view>
+    <view class="feedback">
+        <navigator>
+           意见反馈 
+        </navigator>
+    </view>
+    <view class="aboutUs">
+        <navigator>
+           关于我们 
+        </navigator>
+    </view>
+</view>
+
