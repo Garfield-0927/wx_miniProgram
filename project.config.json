@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -95,6 +95,12 @@
           "name": "pages/user/user",
           "pathName": "pages/user/user",
           "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/auth/auth",
+          "pathName": "pages/auth/auth",
           "scene": null
         }
       ]
